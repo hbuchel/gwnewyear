@@ -1,0 +1,11 @@
+{
+  "name": "happy-new-year-mackenzie",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-concurrent": "*"
+  }
+}

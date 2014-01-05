@@ -1,0 +1,48 @@
+.baby-wrapper {
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	top: 0;
+}
+.baby {		
+	position: absolute;
+	left: 50%;
+	margin-left: 320px;
+	top: 340px;	
+	z-index: 10;
+	opacity: 0;
+	@include translate3d(100%,0,0);
+	@include single-transition(all, 2s, ease-in-out);
+}
+.baby-shape {
+	fill: darken($teal,15%);
+}
+.waypoint-active .baby {
+	@include translate3d(50%,0,0);
+	opacity: 1;
+}
+
+
+.ruler-wrapper {
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	top: 0;
+}
+.ruler {
+	position: absolute;
+	left: 50%;
+	top: 320px;
+	margin-left: 300px;
+	z-index: 10;
+	opacity: 0;
+	@include translate3d(100%,0,0);
+	@include single-transition(all, 2s, ease-in-out);
+}
+.ruler-shape {
+	fill: darken($teal,15%);
+}
+.waypoint-active .ruler {
+	@include translate3d(50%,0,0);
+	opacity: 1;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "hamltest",
+  "version": "0.0.0",
+  "dependencies": {
+    "modernizr": "*",
+    "jquery": "*",
+    "jquery-waypoints": "*",
+    "Snap.svg": "*",
+    "paper": "*"
+  },
+  "devDependencies": {}
+}

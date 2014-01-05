@@ -1,0 +1,38 @@
+nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 20;
+	box-shadow: 0 -2px 5px rgba(0,0,0,.3);
+	a {
+		display: block;
+		width: 25%;
+		float: left;
+		line-height: 1;
+		padding: 10px;
+		text-decoration: none;
+		font-weight: 700;
+		color: #fff;
+		text-align: center;
+		border-top: 5px solid transparent;
+		&.active {
+			border-top: 5px solid #222;
+		}
+		&:hover, &:focus {
+			background: #222;
+			color: #fff;
+		}
+	}
+}
+.link-intro {
+	background: $teal;
+}
+.link-name {
+	background: $pink;
+}
+.link-parents {
+	background: $blue;
+}
+.link-happyny {
+	background: $purple;
+}
