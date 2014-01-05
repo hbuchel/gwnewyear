@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gravity Works</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+       
+        <!-- Modernizr -->
+        <script src="vendor/modernizr/modernizr.js"></script>
+
+       
+      
+    </head>
+    <body>
+       
+        <div id="section-intro" class="section intro" data-id="section-intro">
+        <canvas id="lauren-intro" resize="true"></canvas>
+        <svg id="laurenSVG" height="273" width="130">
+  <desc></desc>
+  <defs></defs>
+  <g class="lauren">
+    <g class="head">
+      <path class="hat" d="M3,0 6,0 6,1 7,1 7,2 8,2 8,5 7,5 7,3 6,3 6,2 3,2 3,3 2,3 2,5 1,5 1,2 2,2 2,1 3,1 3,0z"></path>
+      <g class="hair">
+        <rect x="3" y="2" width="3" height="1" class="hair-top"></rect>
+        <rect x="2" y="3" width="1" height="2" class="hair-left"></rect>
+        <rect x="6" y="3" width="1" height="2" class="hair-right"></rect>
+      </g>
+      <rect x="3" y="3" width="3" height="2" class="face"></rect>
+      <g class="glasses">
+        <rect x="3" y="3" width="1" height="1" class="glasses-left"></rect>
+        <rect x="5" y="3" width="1" height="1" class="glasses-right"></rect>
+      </g>
+    </g>
+    <g class="torso">
+      <rect x="3" y="6" width="3" height="16" class="shirt"></rect>
+      <g class="scarf">
+        <rect x="2" y="5" width="5" height="1" class="scarf-top"></rect>
+        <rect x="3" y="6" width="1" height="11" class="scarf-left"></rect>
+        <rect x="6" y="6" width="1" height="14" class="scarf-right"></rect>
+      </g>
+      <g style="" class="jacket">
+        <rect x="2" y="6" width="1" height="16" class="jacket-left"></rect>
+        <rect x="6" y="20" width="1" height="2" class="jacket-right"></rect>
+      </g>
+    </g>
+    <g class="pants">
+      <rect x="2" y="22" width="5" height="3" class="pants-top"></rect>
+      <rect x="2" y="25" width="2" height="11" class="pants-left"></rect>
+      <rect x="5" y="25" width="2" height="11" class="pants-right"></rect>
+      <rect x="2" y="22" width="1" height="1" class="belt-left"></rect>
+      <rect x="6" y="22" width="1" height="1" class="belt-right"></rect>
+    </g>
+    <g class="right-arm">
+      <rect x="7" y="6" width="1" height="9" class="right-top-arm"></rect>
+      <g class="right-lower-arm">
+        <rect x="7" y="15" width="1" height="7" class="right-bottom-arm"></rect>
+        <rect x="7" y="22" width="1" height="1" class="right-sleeve"></rect>
+        <rect x="7" y="23" width="1" height="1" class="right-cuff"></rect>
+        <rect x="7" y="24" width="1" height="1" class="right-hand"></rect>
+      </g>
+    </g>
+    <g class="left-arm">
+      <rect x="1" y="6" width="1" height="9" class="left-top-arm"></rect>
+      <rect x="0" y="19" width="4" height="5" class="book"></rect>
+      <rect x="1" y="15" width="1" height="7" class="left-bottom-arm"></rect>
+      <rect x="1" y="22" width="1" height="1" class="left-sleeve"></rect>
+      <rect x="1" y="23" width="1" height="1" class="left-cuff"></rect>
+      <rect x="1" y="24" width="1" height="1" class='left-hand'></rect>
+    </g>
+    <g class="left-boot">
+      <rect x="3" y="36" width="1" height="2" class="left-leg"></rect>
+      <rect x="2" y="38" width="2" height="1" class="left-shoe"></rect>
+    </g>
+    <g class="right-boot">
+      <rect x="5" y="36" width="1" height="2" class="right-leg"></rect>
+      <rect x="5" y="38" width="2" height="1" class="right=shoe"></rect>
+    </g>
+  </g>
+</svg>
+
+        </div>
+       
+    </body>
+</html>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/paper/dist/paper-full.min.js"></script>
+<script src="vendor/Snap.svg/dist/snap.svg-min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/paperscript" src="js/intro.js" canvas="lauren-intro"></script>
